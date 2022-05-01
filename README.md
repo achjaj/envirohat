@@ -62,6 +62,6 @@ from envirohat import EnviroHAT
 hat = EnviroHAT()
     
 print("Tepmerature:", hat.get_temperature(), "°C")
-print("Humiditi:", hat.get_humidity(num=5, delay=0.3), "%")
+print("Humidity:", hat.get_humidity(num=5, delay=0.3), "%")
 print("Raw ALS:", hat.ltr.get_raw_als())
 ```
