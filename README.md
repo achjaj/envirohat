@@ -4,7 +4,15 @@
 
 ## Installation
 
-`pip intall envirohat`
+Before installing the package, the `pyaudio` package needs to be installed with `apt`:
+```
+sudo apt install python3-pyaudio
+```
+
+Then the Envirohat package can be installed using `pip`:
+```
+pip intall envirohat
+```
 
 ## Reference
 

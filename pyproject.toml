@@ -1,3 +1,28 @@
 [build-system]
 requires = ["setuptools>=42"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "envirohat"
+version = "1.1"
+authors = [
+  { name="Jakub Bucko", email="bucko.jakub@proton.me" },
+]
+description = "Enviro+ sensor in one place"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "enviroplus >=0.0.6",
+    "numpy >= 1.19.5",
+    "smbus2 >= 0.4.3"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/achjaj/envirohat"
+"Bug Tracker" = "https://github.com/achjaj/envirohat/issues"
